@@ -3,6 +3,8 @@
 require 'date'
 
 def streak(array)
+  return 0 if array.empty?
+  
   max = 0
   current_count = 0
   array.each_with_index do |n, ind|
@@ -19,7 +21,7 @@ def streak(array)
     end
   end
   max += 1
-  puts max
+  max
 end
 
 streak([
