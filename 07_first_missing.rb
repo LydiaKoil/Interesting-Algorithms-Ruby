@@ -9,8 +9,5 @@ def first_missing(array)
 
     num += 1 if array[ind + 1] != n
   end
-
   num
 end
-
-puts first_missing([-5, -3, 0, 2, 2, 2, 2, 2, 2, 3, 4, 4, 5])
