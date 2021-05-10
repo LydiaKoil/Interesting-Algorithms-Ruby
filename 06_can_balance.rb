@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def balance(array)
+def canBalance?(array)
   array_sum = array.inject(0) { |sum, x| sum + x }
   sum = 0
   array.each do |n|
